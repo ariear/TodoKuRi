@@ -1,7 +1,7 @@
 <template>
 
 <div v-if="nama == ''" class="fixed top-0 left-0 w-screen h-screen bg-[#00000091] z-20 flex justify-center items-center">
-  <div class="bg-white w-[94vw] py-3 rounded-lg">
+  <div class="bg-white w-[94vw] px-3 py-5 rounded-lg">
     <p class="font-pupylinux text-center mb-5">Selamat Datang Di Todo App Gwej</p>
 
     <form @submit.prevent="addname">
