@@ -5,7 +5,7 @@
     <p class="font-pupylinux text-center mb-5">Selamat Datang Di Todo App Gwej</p>
 
     <form @submit.prevent="addname">
-    <input type="text" placeholder="Nama luwh siafkh" required name="nama" class="border-b-2 border-yellow-300 p-2 ml-2 w-[120px]">
+    <input type="text" placeholder="Nama luwh siafkh" required name="nama" class="border-b-2 border-yellow-300 p-2 ml-2 w-[140px]">
     <button class="bg-yellow-300 py-2 px-4 ml-3 rounded-full font-pupylinux" type="submit">Save</button>
     </form>
 
